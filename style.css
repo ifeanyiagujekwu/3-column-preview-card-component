@@ -1,0 +1,116 @@
+@media (max-width: 900px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-self: center;
+        margin: 10% auto;
+    }
+    
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .container .first{
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(31, 77%, 52%);
+        padding: 15%;
+    }
+    
+    .container .first button{
+        border-radius: 20px;
+        padding: 5% 15%;
+        border: 0px;
+        color: hsl(31, 77%, 52%);
+    }
+    
+    .container .second{
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+        padding: 15%;
+    }
+    
+    .container .second button{
+        border-radius: 20px;
+        padding: 5% 15%;
+        border: 0px;
+        color: hsl(184, 100%, 22%);
+    }
+    
+    .container .third{
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(179, 100%, 13%);
+        padding: 15%;
+    }
+    
+    .container .third button{
+        border-radius: 20px;
+        padding: 5% 15%;
+        border: 0px;
+        color: hsl(179, 100%, 13%);
+    }
+
+}
+
+@media (min-width: 901px){
+    .container{
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin: 5% auto;
+    }
+    
+    h1{
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    
+    p{
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    
+    .container .first{
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(31, 77%, 52%);
+        padding: 10%;
+    }
+    
+    .container .first button{
+        border-radius: 20px;
+        padding: 5% 15%;
+        border: 0px;
+        color: hsl(31, 77%, 52%);
+    }
+    
+    .container .second{
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+        padding: 10%;
+    }
+    
+    .container .second button{
+        border-radius: 20px;
+        padding: 5% 15%;
+        border: 0px;
+        color: hsl(184, 100%, 22%);
+    }
+    
+    .container .third{
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(179, 100%, 13%);
+        padding: 10%;
+    }
+    
+    .container .third button{
+        border-radius: 20px;
+        padding: 5% 15%;
+        border: 0px;
+        color: hsl(179, 100%, 13%);
+    }
+}
+
